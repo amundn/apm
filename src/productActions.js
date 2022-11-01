@@ -1,5 +1,5 @@
-import dispatcher from "../appDispatcher";
-import * as productApi from "../api/productApi";
+import dispatcher from "./appDispatcher";
+import * as productApi from "./api/productApi";
 import actionTypes from "./actionTypes";
 
 export function saveProduct(product) {

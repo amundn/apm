@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import productsStore from "../stores/productsStore";
+import productsStore from "./productsStore";
 import ProductList from "./ProductList";
 import { Link } from "react-router-dom";
-import { loadProducts, deleteProduct } from "../actions/productActions";
+import { loadProducts, deleteProduct } from "./productActions";
 
 function ProductsPage() {
   const [products, setProducts] = useState(productsStore.getProducts());
